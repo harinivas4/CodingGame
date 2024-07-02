@@ -1,0 +1,21 @@
+q-1:
+
+ A string message.
+
+OUTPUT:
+Line 1: The number of letters inside the message.
+
+EXAMPLE:
+Input
+I am
+Output
+3
+ 
+solution:
+m=input()
+a=0
+x="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in m:
+    if i in x:
+        a+=1
+print(a)
